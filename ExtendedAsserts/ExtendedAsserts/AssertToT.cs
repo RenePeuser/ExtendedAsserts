@@ -8,162 +8,156 @@ namespace ExtendedAsserts
     {
         public static void IsNotPublic<T>()
         {
-            Assert.IsTrue(typeof(T).IsNotPublic());
+            Assert.IsTrue(typeof(T).IsNotPublic);
         }
 
         public static void IsPublic<T>()
         {
-            Assert.IsTrue(typeof(T).IsNotPublic());
+            Assert.IsTrue(typeof(T).IsNotPublic);
         }
 
         public static void IsNestedPublic<T>()
         {
-            Assert.IsTrue(typeof(T).IsNestedPublic());
+            Assert.IsTrue(typeof(T).IsNestedPublic);
         }
 
         public static void IsNestedPrivate<T>()
         {
-            Assert.IsTrue(typeof(T).IsNestedPrivate());
+            Assert.IsTrue(typeof(T).IsNestedPrivate);
         }
 
         public static void IsNestedFamily<T>()
         {
-            Assert.IsTrue(typeof(T).IsNestedFamily());
+            Assert.IsTrue(typeof(T).IsNestedFamily);
         }
 
         public static void IsNestedAssembly<T>()
         {
-            Assert.IsTrue(typeof(T).IsNestedAssembly());
+            Assert.IsTrue(typeof(T).IsNestedAssembly);
         }
 
         public static void IsNestedFamAndAssem<T>()
         {
-            Assert.IsTrue(typeof(T).IsNestedFamAndAssem());
+            Assert.IsTrue(typeof(T).IsNestedFamANDAssem);
         }
 
         public static void IsNestedFamOrAssem<T>()
         {
-            Assert.IsTrue(typeof(T).IsNestedFamOrAssem());
+            Assert.IsTrue(typeof(T).IsNestedFamORAssem);
         }
 
         public static void IsAutoLayout<T>()
         {
-            Assert.IsTrue(typeof(T).IsAutoLayout());
+            Assert.IsTrue(typeof(T).IsAutoLayout);
         }
 
         public static void IsLayoutSequential<T>()
         {
-            Assert.IsTrue(typeof(T).IsLayoutSequential());
+            Assert.IsTrue(typeof(T).IsLayoutSequential);
         }
 
         public static void IsExplicitLayout<T>()
         {
-            Assert.IsTrue(typeof(T).IsExplicitLayout());
+            Assert.IsTrue(typeof(T).IsExplicitLayout);
         }
 
         public static void IsClass<T>()
         {
-            Assert.IsTrue(typeof(T).IsClass());
+            Assert.IsTrue(typeof(T).IsClass);
         }
 
         public static void IsInterface<T>()
         {
-            Assert.IsTrue(typeof(T).IsInterface());
+            Assert.IsTrue(typeof(T).IsInterface);
         }
 
         public static void IsValueType<T>()
         {
-            Assert.IsTrue(typeof(T).IsValueType());
+            Assert.IsTrue(typeof(T).IsValueType);
         }
 
         public static void IsAbstract<T>()
         {
-            Assert.IsTrue(typeof(T).IsAbstract());
+            Assert.IsTrue(typeof(T).IsAbstract);
         }
 
         public static void IsSealed<T>()
         {
-            Assert.IsTrue(typeof(T).IsSealed());
+            Assert.IsTrue(typeof(T).IsSealed);
         }
 
         public static void IsEnum<T>()
         {
-            Assert.IsTrue(typeof(T).IsEnum());
+            Assert.IsTrue(typeof(T).IsEnum);
         }
 
         public static void IsSpecialName<T>()
         {
-            Assert.IsTrue(typeof(T).IsSpecialName());
+            Assert.IsTrue(typeof(T).IsSpecialName);
         }
 
         public static void IsImport<T>()
         {
-            Assert.IsTrue(typeof(T).IsImport());
+            Assert.IsTrue(typeof(T).IsImport);
         }
 
         public static void IsSerializable<T>()
         {
-            Assert.IsTrue(typeof(T).IsSerializable());
+            Assert.IsTrue(typeof(T).IsSerializable);
         }
 
         public static void IsAnsiClass<T>()
         {
-            Assert.IsTrue(typeof(T).IsAnsiClass());
+            Assert.IsTrue(typeof(T).IsAnsiClass);
         }
 
         public static void IsUnicodeClass<T>()
         {
-            Assert.IsTrue(typeof(T).IsUnicodeClass());
+            Assert.IsTrue(typeof(T).IsUnicodeClass);
         }
 
         public static void IsAutoClass<T>()
         {
-            Assert.IsTrue(typeof(T).IsAutoClass());
+            Assert.IsTrue(typeof(T).IsAutoClass);
         }
 
         public static void IsArray<T>()
         {
-            Assert.IsTrue(typeof(T).IsArray());
+            Assert.IsTrue(typeof(T).IsArray);
         }
 
         public static void IsByRef<T>()
         {
-            Assert.IsTrue(typeof(T).IsByRef());
+            Assert.IsTrue(typeof(T).IsByRef);
         }
 
         public static void IsPointer<T>()
         {
-            Assert.IsTrue(typeof(T).IsPointer());
+            Assert.IsTrue(typeof(T).IsPointer);
         }
 
         public static void IsPrimitive<T>()
         {
-            Assert.IsTrue(typeof(T).IsPrimitive());
+            Assert.IsTrue(typeof(T).IsPrimitive);
         }
 
         public static void IsComObject<T>()
         {
-            Assert.IsTrue(typeof(T).IsComObject());
+            Assert.IsTrue(typeof(T).IsCOMObject);
         }
 
         public static void IsContextful<T>()
         {
-            Assert.IsTrue(typeof(T).IsContextful());
+            Assert.IsTrue(typeof(T).IsContextful);
         }
 
         public static void IsMarshalByRef<T>()
         {
-            Assert.IsTrue(typeof(T).IsMarshalByRef());
+            Assert.IsTrue(typeof(T).IsMarshalByRef);
         }
         public static void HasElementType<T>()
         {
-            Assert.IsTrue(typeof(T).HasElementType());
-        }
-
-        public static void IsImmutable<T>()
-        {
-
-            Assert.IsTrue(typeof(T).IsImmutable());
+            Assert.IsTrue(typeof(T).HasElementType);
         }
 
         public static void HasCustomAttribute<TSource, TAttribute>() where TSource : class where TAttribute : Attribute
